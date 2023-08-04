@@ -1,9 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T11:20:30.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="lSaxZqOV8rlK1r-M28_C" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T11:20:57.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="lYFalv6x2xKiq7JbogSq" version="21.6.6" type="github">
   <diagram name="Page-1" id="877NddM2-vIIa7-sFtzM">
-    <mxGraphModel>
+    <mxGraphModel dx="3850" dy="2646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-20" width="510" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=0.978;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F2RmmkcFuDI7doMSKdTL-3" target="F2RmmkcFuDI7doMSKdTL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-3" value="Database&lt;br&gt;&lt;br&gt;[sqlite]" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="125" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.012;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F2RmmkcFuDI7doMSKdTL-5" target="F2RmmkcFuDI7doMSKdTL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-5" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/login&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;todo-app: CRUD&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Flask Application (PORT 5000)&lt;/span&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="110" width="225" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-6" value="App Server Python - RUNNING" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="80" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-7" value="CentOS (IP: 10.1.1.103)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="-50" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2RmmkcFuDI7doMSKdTL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="-20" width="280" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-10" value="Ubuntu (IP: 10.1.1.102)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-50" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-11" value="Nginix" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F2RmmkcFuDI7doMSKdTL-14" target="F2RmmkcFuDI7doMSKdTL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2RmmkcFuDI7doMSKdTL-14" target="F2RmmkcFuDI7doMSKdTL-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-265" y="410" />
+              <mxPoint x="-265" y="480" />
+              <mxPoint x="-30" y="480" />
+              <mxPoint x="-30" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-14" value="My Computer&lt;br&gt;&lt;br&gt;{User}&lt;br&gt;&lt;br&gt;Access it via Postman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="245" width="180" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-20" width="60" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-16" value="Firewall Rule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-160" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-17" value="ALLOW: 10.1.1.102" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2RmmkcFuDI7doMSKdTL-16">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-18" value="DENY All Other Request for port 5000" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2RmmkcFuDI7doMSKdTL-16">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-19" value="&lt;b&gt;ToDo App API Features:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;User Add&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [ Admin Level ]&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/user [POST]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;User Login&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [ User Level ]&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/login [GET]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Add ToDo&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [ User Level ]&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/todo [POST]&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Add ToDo&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [ modifydate for user ]&lt;/li&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;/user/modify [POST]&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;todo.app/login -&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;N -&amp;gt;&amp;nbsp; A(py) -&amp;gt;&amp;nbsp; login(logc)py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/user&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;N&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;logic(user -py)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/user/modify&amp;nbsp; N&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;A&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;logic(userdatemodify-py)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="360" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-20" value="Env Setup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-180" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-21" value="python3, python3-devel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2RmmkcFuDI7doMSKdTL-20">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-22" value="Flask, Flask-SQLAlchemy, PyJWT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2RmmkcFuDI7doMSKdTL-20">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-23" value="app.run(host=&#39;10.1.1.103&#39;, PORT=5000)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2RmmkcFuDI7doMSKdTL-20">
+          <mxGeometry y="90" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IP: 10.1.1.103&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PORT: 5000&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-25" value="todo.app:80" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-26" value="&lt;h1&gt;Nginx Config&lt;/h1&gt;&lt;p&gt;todo.app:80&amp;nbsp; ---&amp;gt;&amp;nbsp; &amp;nbsp;10.1.1.103:5000&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;todo.app/login ---&amp;gt; 10.1.1.103:5000/login&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="40" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-27" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="F2RmmkcFuDI7doMSKdTL-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="40" as="sourcePoint" />
+            <mxPoint x="75" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-28" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#D70700;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="230" as="sourcePoint" />
+            <mxPoint x="70" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-29" value="DNS Setup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-30" value="HOST: todo.app -&amp;gt; 10.1.1.102" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F2RmmkcFuDI7doMSKdTL-29">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-31" value="Req. Rec." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-32" value="Req. Deny." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2RmmkcFuDI7doMSKdTL-33" value="&lt;b&gt;API Requests:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;GET&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;POST&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="540" width="360" height="340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
